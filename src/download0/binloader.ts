@@ -493,7 +493,7 @@ export function binloader_init () {
 
           if (closeDelay > 0) {
             log('CONFIG.autoclose enabled - closed after ' + (closeDelay / 1000) + ' seconds...')
-//            utils.notify('Vue closed after ' + (closeDelay / 1000) + ' seconds...')
+            //            utils.notify('Vue closed after ' + (closeDelay / 1000) + ' seconds...')
 
             const killId = jsmaf.setInterval(function () {
               jsmaf.clearInterval(killId)
