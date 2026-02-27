@@ -106,7 +106,7 @@ const compare_version = (a: string, b: string) => {
 if (!is_jailbroken) {
   const jb_behavior = (typeof CONFIG !== 'undefined' && typeof CONFIG.jb_behavior === 'number') ? CONFIG.jb_behavior : 0
 
-  utils.notify(FW_VERSION + ' Detectado!')
+  utils.notify(FW_VERSION + ' Detected!')
 
   let use_lapse = false
 
@@ -167,7 +167,7 @@ if (!is_jailbroken) {
     }
   }
 } else {
-  utils.notify('Ya está desbloqueado!')
+  utils.notify('Already Jailbroken!')
   try { include('themes/' + themeFolder + '/main.js') } catch (e) { /* escaped sandbox */ }
 }
 
