@@ -66,7 +66,7 @@ function startBgmIfEnabled () {
         if (typeof CONFIG !== 'undefined' && CONFIG.music && !bgmClip) {
             clip = new jsmaf.AudioClip();
             clip.volume = 0.5;
-            clip.open('file://../download0/sfx/bgm.m4a');
+            clip.open('file://../download0/sfx/bgm.wav');
             bgmClip = clip;
         }
     } catch (e) {
