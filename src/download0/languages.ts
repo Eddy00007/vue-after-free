@@ -36,8 +36,6 @@ if (IMAGE_TEXT_LOCALES.includes(detectedLocale)) {
 
 switch (detectedLocale) {
   case 'es':
-  case 'es-ES':
-  case 'es-419':
     // Spanish
     lang.jailbreak = 'Jailbreak'
     lang.payloadMenu = 'Menu de Payloads'
